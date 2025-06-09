@@ -5,7 +5,7 @@
   
   <Id>12345678-1234-1234-1234-123456789012</Id>
   <Version>1.0.0.0</Version>
-  <ProviderName>Habu</ProviderName>
+  <ProviderName>Bala Hussaini</ProviderName>
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Excel CRUD Manager"/>
   <Description DefaultValue="Professional CRUD operations for Excel"/>
@@ -20,7 +20,9 @@
   
   <Permissions>ReadWriteDocument</Permissions>
   
-  <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" xsi:type="VersionOverridesV1_0">
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/taskpaneappversionoverrides" 
+                    xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes" 
+                    xsi:type="VersionOverridesV1_0">
     <Hosts>
       <Host xsi:type="Workbook">
         <DesktopFormFactor>
@@ -59,9 +61,9 @@
     
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://balahuss.github.io/excel-crud-manager/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://balahuss.github.io/excel-crud-manager/assets/icon-32.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://balahuss.github.io/excel-crud-manager/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://img.icons8.com/color/16/000000/database.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://img.icons8.com/color/32/000000/database.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://img.icons8.com/color/80/000000/database.png"/>
       </bt:Images>
       <bt:Urls>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://go.microsoft.com/fwlink/?LinkId=276812"/>
